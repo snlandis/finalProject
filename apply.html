@@ -3,18 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Ripple</title>
-    <link rel="stylesheet" href="/css/main.css">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css" rel="stylesheet" integrity="sha384-gv0oNvwnqzF6ULI9TVsSmnULNb3zasNysvWwfT/s4l8k5I+g6oFz9dye0wg3rQ2Q" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/main.css">
 
   </head>
+
+
   <body>
     <header>
-            <nav class="navbar navbar-default">
+      <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -31,18 +34,6 @@
               <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
               <li><a href="how.html">How it works</a></li>
               <li><a href="view.html">View the projects</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                  <li class="divider"></li>
-                  <li><a href="">One more separated link</a></li>
-                </ul>
-              </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li><a href="https://www.youtube.com/watch?v=9rTzJIxBHKc" target="_blank">For our Dear Leader</a></li>
@@ -53,45 +44,44 @@
     </header>
 
 
-
+    <div class="col-lg-10 col-lg-offset-2">
+    <h3>We need you to complete some questions first</h3>
+  </div>
+  <div class="col-lg-10 col-lg-offset-2">
     <form class="form-horizontal">
+    <!-- <form class="form-horizontal" action="https://formspree.io/stephen.n.landis@gmail.com"
+      method="POST"> -->
       <fieldset>
-
-        <form method="POST" action="http://formspree.io/your@email.com">
-
-
-
-
         <div class="form-group">
           <label class="col-lg-2 control-label">I've used Product X for ___ years</label>
           <div class="col-lg-10">
             <div class="radio">
               <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                <input type="radio" name="group1" id="optionsRadios1" value="option1" checked="">
                 >1
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                <input type="radio" name="group1" id="optionsRadios2" value="option2">
                 1 - 2 years
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+                <input type="radio" name="group1" id="optionsRadios3" value="option3">
                 3 - 5 years
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios4" value="option4">
+                <input type="radio" name="group1" id="optionsRadios4" value="option4">
                 6 - 10 years
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios5" value="option5">
+                <input type="radio" name="group1" id="optionsRadios5" value="option5">
                 10+ years
               </label>
             </div>
@@ -99,134 +89,236 @@
         </div>
 
         <div class="form-group">
-          <label class="col-lg-2 control-label">The last time I used Product X was:</label>
-          <div class="col-lg-10">
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
-                Earlier today
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                Yesterday
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
-                Last week
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios4" value="option4">
-                Last month
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios5" value="option5">
-                Other
-              </label>
-            </div>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label class="col-lg-2 control-label">I use Product X:</label>
-          <div class="col-lg-10">
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
-                Daily
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                Weekly
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
-                Monthly
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios4" value="option4">
-                Quarterly
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios5" value="option5">
-                Yearly
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios6" value="option6">
-                Other
-              </label>
-            </div>
-          </div>
-        </div>
-
-
-
-
-
-
-        <div class="form-group">
-          <label for="select" class="col-lg-2 control-label">Selects</label>
-          <div class="col-lg-10">
-            <select class="form-control" id="select">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
-            <br>
-            <select multiple="" class="form-control">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
-          </div>
-        </div>
-
-
+          <label class="col-lg-2 control-label">I also use these tools in my environment:</label>
         <div class="col-lg-10">
-          <input type="text" name="name" class="form-control" placeholder="Your name">
-          <input type="text" name="title" class="form-control" placeholder="Your title">
-          <input type="text" name="company" class="form-control" placeholder="Your company's name">
-
-          <input type="email" name="email" class="form-control" id="inputEmail" placeholder="Your email">
-
-          <textarea name="message" class="form-control" placeholder="Optional message box"></textarea>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="tools" value="">Product A<br>
+          </label>
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="tools" value="">Product B<br>
+          </label>
           </div>
-
-          <div class="form-group">
-            <div class="col-lg-10 col-lg-offset-2">
-              <button type="reset" class="btn btn-default">Cancel</button>
-              <button type="submit" class="btn btn-primary">Submit</button>
-              <!-- <a href="#" type="submit" class="btn btn-primary btn-xs">Send</a> -->
-            </div>
+          <div class="checkbox">
+          <label>
+            <input type="checkbox" name="tools" value="">Product C<br>
+          </label>
           </div>
+          <div class="checkbox">
+          <label>
+            <input type="checkbox" name="tools" value="">Product D<br>
+          </label>
+          </div>
+          <div class="checkbox">
+          <label>
+            <input type="checkbox" name="tools" value="">Product E<br>
+          </label>
+          </div>
+          <div class="checkbox">
+          <label>
+            <input type="checkbox" name="tools" value="">N/A<br>
+          </label>
+          </div>
+        </div>
+      </div>
 
+      <div class="form-group">
+        <label class="col-lg-2 control-label">The last time I used Product X was:</label>
+        <div class="col-lg-10">
+          <div class="radio">
+            <label>
+              <input type="radio" name="group2" id="optionsRadios1" value="option1" checked="">
+              Earlier today
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="group2" id="optionsRadios2" value="option2">
+              Yesterday
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="group2" id="optionsRadios3" value="option3">
+              Last week
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="group2" id="optionsRadios4" value="option4">
+              Last month
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="group2" id="optionsRadios5" value="option5">
+              Other
+            </label>
+          </div>
+        </div>
+      </div>
 
+      <div class="form-group">
+        <label class="col-lg-2 control-label">I use Product X:</label>
+        <div class="col-lg-10">
+          <div class="radio">
+            <label>
+              <input type="radio" name="group3" id="optionsRadios1" value="option1" checked="">
+              Daily
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="group3" id="optionsRadios2" value="option2">
+              Weekly
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="group3" id="optionsRadios3" value="option3">
+              Monthly
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="group3" id="optionsRadios4" value="option4">
+              Quarterly
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="group3" id="optionsRadios5" value="option5">
+              Yearly
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="group3" id="optionsRadios6" value="option6">
+              Other
+            </label>
+          </div>
+        </div>
+      </div>
 
-      </form>
+      <div class="form-group">
+        <label class="col-lg-2 control-label">If I could change 2 things about Product X, they would be:</label>
+        <div class="col-lg-10">
+          <div class="text">
+            <label>
+              <input type="text" name="change" class="form-control" placeholder="Something to change">
+            </label>
+            <label>
+              <input type="text" name="change" class="form-control" placeholder="Something to change">
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="col-lg-2 control-label">Two things I love about Product X are:</label>
+      <div class="col-lg-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" name="features" value="">Feature 1<br>
+        </label>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" name="features" value="">Feature 2<br>
+        </label>
+        </div>
+        <div class="checkbox">
+        <label>
+          <input type="checkbox" name="features" value="">Feature 3<br>
+        </label>
+        </div>
+        <div class="checkbox">
+        <label>
+          <input type="checkbox" name="features" value="">Feature 4<br>
+        </label>
+        </div>
+        <div class="checkbox">
+        <label>
+          <input type="checkbox" name="features" value="">Feature 5<br>
+        </label>
+        </div>
+      </div>
+    </div>
+
+      <div class="form-group">
+        <label class="col-lg-2 control-label">A good time for us to meet would be:</label>
+      <div class="col-lg-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" name="tools" value="">Monday<br>
+        </label>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" name="tools" value="">Tuesday<br>
+        </label>
+        </div>
+        <div class="checkbox">
+        <label>
+          <input type="checkbox" name="tools" value="">Wednesday<br>
+        </label>
+        </div>
+        <div class="checkbox">
+        <label>
+          <input type="checkbox" name="tools" value="">Thursday<br>
+        </label>
+        </div>
+        <div class="checkbox">
+        <label>
+          <input type="checkbox" name="tools" value="">Friday<br>
+        </label>
+        </div>
+        At
+        <div class="checkbox">
+        <label>
+          <input type="checkbox" name="tools" value="">9am CST<br>
+        </label>
+        </div>
+        <div class="checkbox">
+        <label>
+          <input type="checkbox" name="tools" value="">11am CST<br>
+        </label>
+        </div>
+        <div class="checkbox">
+        <label>
+          <input type="checkbox" name="tools" value="">1pm CST<br>
+        </label>
+        </div>
+        <div class="checkbox">
+        <label>
+          <input type="checkbox" name="tools" value="">3pm CST<br>
+        </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-10">
+      <input type="text" name="name" class="form-control" placeholder="Your name">
+      <input type="text" name="title" class="form-control" placeholder="Your title">
+      <input type="text" name="company" class="form-control" placeholder="Your company's name">
+
+      <input type="email" name="email" class="form-control" id="inputEmail" placeholder="Your email">
+
+      <textarea name="message" class="form-control" placeholder="Optional message box"></textarea>
+      </div>
+
+      <div class="form-group">
+        <div class="col-lg-10 col-lg-offset-2">
+          <button type="reset" class="btn btn-default">Cancel</button>
+          <a href="confirmed.html" class="btn btn-primary">Send</a>
+          <!-- <a href="#" type="submit" class="btn btn-primary btn-xs">Send</a> -->
+        </div>
+      </div>
       </fieldset>
     </form>
-
+  </div>
 
 
     <footer>

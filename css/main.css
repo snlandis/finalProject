@@ -1,0 +1,30 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+h3, h4 {
+  text-align: center;
+}
+body, p {
+  background-color: #DEDEDE;
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+.navbar-default {
+    background-color: #DEDEDE;
+    border-color: #e7e7e7;
+}
+.btn-primary {
+    color: #ffffff;
+    background-color: #5C478D;
+    border-color: #947289;
+}
+.btn-default {
+    color: #555555;
+    background-color: #A1A0A4;
+    border-color: #555555;
+}
+.btn-block {
+  color: #ffffff;
+  background-color: #5C478D;
+  border-color: #947289;
+}
